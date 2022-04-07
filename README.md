@@ -1,1 +1,4 @@
-# Swiggy-Clone
+- import BrowserRouter
+- Link;
+- Routes
+- Route - two attributes (path, element );
