@@ -1,6 +1,10 @@
 import React from "react";
 import "./Location.css"
+import {useState} from "react"
+// import {useDispatch, useSelector} from "react-redux";
+
 export const Location = () => {
+  const [count, setCount] = useState(0);
   return (
     <div className="location">
       <div className="_3t">
@@ -381,7 +385,49 @@ export const Location = () => {
             
          </div>
        </section>
-       <section className="section3">chandu3</section>
+       <section className="section3">
+         <div className="cart1">
+           <div className="cart21">
+             Cart
+             <div className="cart3">
+               1
+               item
+             </div>
+           </div>
+           <div className="cart22">
+             {/* <div className="sub"></div> */}
+             <div className="subcart1">
+               <div className="subcart2">
+                {/* <div className="subcart31"></div> */}
+                <div className="subcart32">
+                  {/* <div className="subcart4"></div> */}
+                  <div>
+                    <div className="welcome">WELCOME50 Eligible items</div>
+                    <div className="saved">
+                      You just
+                      <span className="saves">saved ₹100</span>
+                      on these items!
+
+                    </div>
+                    {/* <p>{count}</p> */}
+                    <button onClick={() => setCount(count+1)}>+</button>
+                    <button>{count}</button>
+                    <button onClick={() => setCount(count-1)}>-</button>
+                  </div>
+                </div>
+                <div className="subcart33">
+                  <p className="total">Subtotal</p>
+                  <p className="total_1">Extra charges may apply</p>
+                </div>
+               </div>
+             </div>
+             {/* <div className="subtotal"></div> */}
+           </div>
+           <div className="cart23">
+             CHECKOUT 
+           </div>
+         </div>
+       </section>
      </div>
     </div>
   )
