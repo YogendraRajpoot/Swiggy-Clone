@@ -46,7 +46,7 @@ Start
 ![](./src/Image/Sign-up-page.png)
 ## Demo 🎥
 
-Deployed Link: [Swiggy-Clone Link](https://swigggy-clone.herokuapp.com/)
+Deployed Link: [Swiggy-Clone Link](https://swiggysiteclone.netlify.app/)
 
 
 ## Collaborators 🤝
